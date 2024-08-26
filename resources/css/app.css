@@ -1,0 +1,76 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 15px 15px 0 0;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased spacing between form elements */
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    border-radius: 10px; /* Rounded corners */
+    padding: 12px 15px; /* Increased padding for better spacing */
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width for better alignment */
+}
+
+button.btn-primary {
+    background-color: #17888c; /* Matching sidebar color */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    padding: 12px 20px; /* Adjusted padding for a better button */
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #005f6b; /* Darker shade for hover effect */
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+}
